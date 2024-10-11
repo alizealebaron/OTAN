@@ -1,0 +1,73 @@
+/** 
+ * @author  : Justine BONDU, Alizéa LEBARON
+ * @since   : 27/03/2024
+ * @version : V1.1.1 - 03/02/2024
+ */
+
+/* -------------------------------------------------------- */
+/* ---------------- Initialisation de base ---------------- */
+/* -------------------------------------------------------- */
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------------- */
+/*                     Bandeau de choix                     */
+/* -------------------------------------------------------- */
+
+.select
+{
+    padding: 0.5vh 0vh;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select form
+{
+    margin: 0 auto;
+}
+
+.visu, .affiche
+{
+    max-width: 100%; /* Largeur maximale de la div */
+    max-height: 85vh;
+    overflow-x: scroll; /* Défilement horizontal */
+    overflow-y: scroll; /* Défilement horizontal */
+}
+
+.visu
+{
+    height: 75vh;
+    display: flex; /* Utiliser le modèle de boîte flexible */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.affiche
+{
+    margin: 2vh 0vh;  
+}
+
+.affiche table
+{
+    margin: 0 auto;
+}
+
+.vide
+{
+    text-align: center;
+}
+
+
+/* ------------------- @ Font-family -------------------- */
+
+@font-face 
+{
+    font-family: 'NexaHeavy';
+    src: url('fonts/Nexa-Heavy.ttf') format('TrueType');
+}
